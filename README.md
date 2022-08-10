@@ -1,10 +1,13 @@
-## 맨땅에 안드로이드 : DataBinding
-안드로이드 클린 아키텍쳐를 알아가고 있습니다. 라이브러리 DataBinding은 다음 [자료](http://dev-imaec.tistory.com/37)를 참고하여 구현했으며,  
-지속적으로 업데이트 될 예정입니다.  
+`최근 업데이트 : '22. 08. 10.`
 
-`최근 업데이트 : '22. 08. 05.`
-<br/>
-## 본론
+![image](https://user-images.githubusercontent.com/86638578/183851710-91769369-8591-4ce4-b6d8-f057530005aa.png)
+## 개요
+#### 라이브러리 DataBinding은 다음 [자료](http://dev-imaec.tistory.com/37)를 참고하여 구현했으며, 지속적으로 업데이트 될 예정입니다.
+#### 이외에도 [Clean Architecture Repo](https://github.com/woongcheol/Android-Clean-Architecture)에서 다양한 개념들을 확인하실 수 있습니다.
+
+</br>
+
+## 본론  
 ### 1. Android DataBinding이란?
 
 - 특정 데이터나 데이터 소스로부터 UI를 결합시켜주는 라이브러리입니다. 이는 아키텍쳐 권장사항에 해당하는 Jetpack 라이브러리의 AAC(Android Architecture Components)에서 제공됩니다.  
