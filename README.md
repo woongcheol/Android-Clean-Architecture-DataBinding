@@ -1,4 +1,4 @@
-`최근 업데이트 : '22. 08. 10.`
+`최근 업데이트 : '22. 09. 15.`
 
 ![image](https://user-images.githubusercontent.com/86638578/183851710-91769369-8591-4ce4-b6d8-f057530005aa.png)
 ## 개요
@@ -75,8 +75,7 @@ dataBinding {
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding // 1
     var text = "No Change Text"
-
-
+    
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main) // 2
@@ -89,8 +88,8 @@ class MainActivity : AppCompatActivity() {
     }
 }
 ```
-1&#41; 레이아웃 파일명에 CamelCase로 변경, Binding이 붙은 형태의 클래스가 생성된다.
-2&#41; 해당 Binding 클래스를 타입으로 하는 binding 변수를 만들고 DataBindingUtile을 통해 레이아웃을 연결해준다.
-3&#41; 레이아웃 파일에서 사용한 표현식(@{}) activity에 지정했던 타입에 맞춰 값을 할당해준다.
-4&#41; 레이아웃의 텍스트를 바꾸기 위에 TextView에 연결된 activity의 변수를 재할당해준다.
+1&#41; 레이아웃 파일명에 CamelCase로 변경, Binding이 붙은 형태의 클래스가 생성된다.  
+2&#41; 해당 Binding 클래스를 타입으로 하는 binding 변수를 만들고 DataBindingUtile을 통해 레이아웃을 연결해준다.  
+3&#41; 레이아웃 파일에서 사용한 표현식(@{}) activity에 지정했던 타입에 맞춰 값을 할당해준다.  
+4&#41; 레이아웃의 텍스트를 바꾸기 위에 TextView에 연결된 activity의 변수를 재할당해준다.  
 5&#41; 바인딩된 데이터가 변경 됐을 때 UI를 새로고침해야하며 이를 위해 invalidateAll()을 사용한다.
